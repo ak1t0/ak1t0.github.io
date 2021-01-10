@@ -1,4 +1,4 @@
-import { Box, Image, UnorderedList, ListItem, ChakraProvider, CSSReset, Flex, Text, SimpleGrid, Link } from "@chakra-ui/react"
+import { Box, Image,ChakraProvider, CSSReset, Flex, Text, SimpleGrid, Link } from "@chakra-ui/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter, faMedium } from "@fortawesome/free-brands-svg-icons";
 
@@ -34,15 +34,11 @@ export default function Home() {
         <SimpleGrid  m={[2, 3]}>
           <Text fontSize="2xl" fontWeight="bold">Skills</Text>
           <Text fontSize="2xl">Software Engineering</Text>
-          <UnorderedList>
-            <ListItem> Kotlin (Server) </ListItem>
-            <ListItem> Go (CLI/misc) </ListItem>
-            <ListItem> JavaScript/Python/Ruby/Java/Perl </ListItem>
-          </UnorderedList>
+          <Text> Kotlin (Server) </Text>
+          <Text> Go (CLI/misc) </Text>
+          <Text> JavaScript/Python/Ruby/Java/Perl </Text>
           <Text fontSize="2xl">Security Research</Text>
-            <UnorderedList>
-              <ListItem> Tor/Darkweb </ListItem>
-            </UnorderedList>
+          <Text> Tor/Darkweb </Text>
         </SimpleGrid>
       </Flex>
     </ChakraProvider>
