@@ -37,7 +37,7 @@ export default function Home() {
           <UnorderedList>
             <ListItem> Kotlin (Server) </ListItem>
             <ListItem> Go (CLI/misc) </ListItem>
-            <ListItem> JavscScript/Python/Ruby/Java/Perl </ListItem>
+            <ListItem> JavaScript/Python/Ruby/Java/Perl </ListItem>
           </UnorderedList>
           <Text fontSize="2xl">Security Research</Text>
             <UnorderedList>
