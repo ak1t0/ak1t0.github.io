@@ -17,6 +17,18 @@ export default function Home() {
         >
           <Head>
             <title>u5h.io</title>
+            <meta property="og:title" content={'u5h.io'} />
+            <meta property="og:description" content={'about ak1t0'} />
+            <meta property="og:type" content="blog" />
+            <meta property="og:url" content={'https://u5h.io'} />
+            <meta property="og:image" content={'https://u5h.io/icon.png'} />
+            <meta property="og:site_name" content={'u5h.io'} />
+            <meta name="twitter:card" content="about ak1t0" />
+            <meta name="twitter:site" content="u5h.io" />
+            <meta name="twitter:url" content={'https://u5h.io'} />
+            <meta name="twitter:title" content={'u5h.io'} />
+            <meta name="twitter:description" content={'about ak1t0'} />
+            <meta name="twitter:image" content={'https://u5h.io/icon.png'} />
           </Head>
           <Text fontSize="3xl" fontWeight="bold">
             About ak1t0
